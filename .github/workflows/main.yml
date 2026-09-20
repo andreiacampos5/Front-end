@@ -31,3 +31,10 @@ jobs:
 
       - name: Build do projeto
         run: npm run build
+
+      - name: Deploy no GitHub Pages
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
