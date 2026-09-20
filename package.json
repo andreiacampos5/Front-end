@@ -2,6 +2,7 @@
   "name": "nome-do-projeto",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://andreiacampos5.github.io/Front-end",
   "dependencies": {
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^6.9.1",
