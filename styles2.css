@@ -1,0 +1,21 @@
+.grid-container { display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    /* Quatro colunas de igual largura */ 
+    gap: 10px; /* Espaço entre os itens */ 
+}
+p{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    color: brown;
+    font-size: 50px
+}
+
+.a{
+    color: brown;
+    font-family: cursive;
+    border: 3px dashed color(srgb red green blue);
+}
